@@ -21,16 +21,16 @@ display: none;
 ul.list-unstyled li{display:inline-block;}
 /* Style the list items */
 ul#toDolist li {
-margin-bottom: 5px;  
+margin: 0 0 5px 0;  
 position: relative;
 padding: 0 25px;
 border-left: 5px solid #111;
 background:azure;
 transition: 0.2s;
 line-height: 30px;
-overflow: hidden;
+/*overflow: hidden;
 text-overflow: ellipsis;
-white-space: nowrap;
+white-space: nowrap;*/
 /*   make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
